@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard |Project Management Dashboard</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+    <section class = "app">
+    <div class="dashboard">
+        <h1>Freelance Project Management System</h1>
+        <div class="actions">
+            <button onclick="handleNewProject()" id="add-project">New Project</button>
+            <button id="view-project">Project Details</button>
+            <button id="clients">View Clients</button>
+            <button id="devs"> View Developers</button>
+            
+        </div>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Project Details</th>
+                    <th>Client</th>
+                    <th>Developer</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>Project 1</td>
+                    <td>Details for Project 1</td>
+                    <td>Client 1</td>
+                    <td>Developer 1</td>
+                    <td>2022-01-01</td>
+                    <td>2022-02-01</td>
+                    <td>
+                        <button class="edit-button">Edit</button>
+                        <button class="delete-button">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Project 2</td>
+                    <td>Details for Project 2</td>
+                    <td>Client 2</td>
+                    <td>Developer 2</td>
+                    <td>2022-02-01</td>
+                    <td>2022-03-01</td>
+                    <td>
+                        <button class="edit-button">Edit</button>
+                        <button class="delete-button">Delete</button>
+                    </td>
+                </tr> -->
+            </tbody>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
